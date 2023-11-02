@@ -21,7 +21,9 @@ jobs:
       - image: kherring/ablunit-test-runner
         auth:
           username: kherring
-          password: $DOCKERHUB_TOKEN
+          password: $
+    environment:
+      MOCHA_FILE: '../../artifacts/test-results.xml'
     steps:
       - run: tr ' ' '\n' \<<< "$PROGRESS_CFG_BASE64" | base64 --decode > /psc/dlc/progress.cfg
       - checkout
