@@ -1,3 +1,3 @@
 # This project has moved!
 
-Head over to it's new location at [kenherring/ablunit-test-runner](kenherring/ablunit-test-runner)
+Head over to it's new location at [kenherring/ablunit-test-runner](https://github.com/kenherring/ablunit-test-runner)
